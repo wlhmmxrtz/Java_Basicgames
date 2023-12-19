@@ -10,7 +10,4 @@ public interface Animal {
         System.out.println(getName() + " is running");
     }
 
-    static void staticRun() {
-        System.out.println("An animal is running");
-    }
 }

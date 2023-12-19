@@ -12,9 +12,8 @@ public class Person {
         this.lastName = Nachnanme;
     }
 
-    public void printName() {
+    public String printName() {
         return firstName;
-        return lastName;
 
     }
 }

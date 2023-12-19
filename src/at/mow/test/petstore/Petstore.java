@@ -1,4 +1,5 @@
 package at.mow.test.petstore;
+
 public class Petstore {
 
     private String owner;
