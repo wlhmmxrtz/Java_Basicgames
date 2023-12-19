@@ -9,11 +9,13 @@ public class Main {
         Petstore Laden = new Petstore(Hans);
 
         Dog Hund = new Dog();
+        Hund.setName("Samy");
         Cat Katze = new Cat();
+        Katze.setName("Mizi");
 
         Laden.getOwner();
-        Dog.run();
-        Cat.run();
+        Hund.run();
+        Katze.run();
 
     }
 }

@@ -13,4 +13,9 @@ public class Cat implements Animal {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public void run() {
+        System.out.println(getName() + " the cat, is running");
+    }
 }
