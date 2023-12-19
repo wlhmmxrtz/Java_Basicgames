@@ -5,15 +5,16 @@ public class Person {
 
     private String firstName;
     private String lastName;
-    private String fullName;
-
     public void setName(String Vorname,String Nachnanme) {
         this.firstName = Vorname;
         this.lastName = Nachnanme;
     }
 
-    public String printName() {
-        return firstName;
+    public void printName() {
+        System.out.println(firstName + " " + lastName);
+    }
 
+    public String getFullName() {
+        return firstName + " " + lastName;
     }
 }

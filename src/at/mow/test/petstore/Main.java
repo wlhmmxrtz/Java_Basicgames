@@ -13,7 +13,9 @@ public class Main {
         Cat Katze = new Cat();
         Katze.setName("Mizi");
 
+
         Laden.getOwner();
+        Hans.printName();
         Hund.run();
         Katze.run();
 

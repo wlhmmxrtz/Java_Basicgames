@@ -4,11 +4,11 @@ public class Petstore {
     private String owner;
 
     public Petstore(Person owner) {
-        this.owner = owner.printName();
+        this.owner = owner.getFullName();
     }
 
-    public String getOwner() {
-        return owner;
+    public void getOwner() {
+        System.out.println(owner);
     }
 
     public String printNameOfAnimals(Animal animal) {
