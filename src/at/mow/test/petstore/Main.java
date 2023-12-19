@@ -14,5 +14,6 @@ public class Main {
         Laden.getOwner();
         Dog.run();
         Cat.run();
+
     }
 }
